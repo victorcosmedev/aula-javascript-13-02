@@ -16,3 +16,16 @@ console.log(usuario);
 
 // A diferença entre null e undefined é que null é um valor definido de forma proposital
 // Já o undefined ocorre quando a variável não recebe valor algum.
+
+// EXERCÍCIO 2
+
+let valorNulo = null;
+let valorIndefinido;
+
+if(valorNulo == null){
+    console.log("valorNulo é " + valorNulo);
+}
+
+if(valorIndefinido == undefined){
+    console.log("valorIndefinido é " + valorIndefinido);
+}
