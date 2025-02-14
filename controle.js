@@ -1,3 +1,5 @@
+// EXERCÍCIO 1
+
 let numero = 0;
 
 console.log("==============================\n IF/ELSE")
@@ -25,3 +27,27 @@ while(i <= 5){
 }
 
 console.log("A soma dos números é igual a: " + soma);
+
+console.log();
+
+
+// EXERCÍCIO 2
+let opcao;
+
+do {
+    opcao = prompt("Insira uma letra: ")
+    switch(opcao){
+        case "A":
+            alert("Opção A selecionada.");
+            break;
+        case "B": 
+            alert("Opção B selecionada.");
+            break;
+        case "S":
+            alert("Saindo...");
+            break;
+        default:
+            alert("Opção inválida.");
+    }
+
+} while (opcao != 'S');
